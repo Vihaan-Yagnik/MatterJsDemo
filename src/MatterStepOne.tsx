@@ -25,7 +25,7 @@ const MatterComponent: React.FC = () => {
     });
 
     // Create two draggable boxes and a ground
-    const boxA = Bodies.rectangle(400, 200, 80, 80);
+    const boxA = Bodies.rectangle(400, 200, 80, 120);
     const boxB = Bodies.rectangle(450, 50, 80, 80);
     const ground = Bodies.rectangle(400, 610, 810, 60, { isStatic: true });
 
